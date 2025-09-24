@@ -3,31 +3,35 @@ body {
   padding: 0;
 }
 
-.body-container {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 1fr 5fr 1fr;
-  grid-template-areas:
-    "header header header"
-    " main main aside-container"
-    "footer footer footer";
-  border: 1px solid black;
-  /* gap: 10px; */
+.header-container {
+  display: flex;
+  border: 1px solid blue;
+  align-items: center;
+  flex-direction: column;
+  /* height: 50%; */
 }
 
-header {
-  /* display: flex; */
-  border: 1px solid blue;
-  grid-area: header;
-  /* grid-row: 1 / 5; */
+.nav-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
   align-items: center;
-  /* justify-content: space-around; */
-  /* height: 50%; */
 }
 
 nav {
   /* border: 1px solid black; */
+}
+
+.body-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 6fr 1fr;
+  grid-template-rows: 6fr 1fr;
+  grid-template-areas:
+    " main aside-container"
+    "footer footer";
+  border: 1px solid black;
+  /* gap: 10px; */
 }
 
 main {
