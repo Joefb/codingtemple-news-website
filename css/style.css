@@ -170,29 +170,36 @@ body {
   gap: 50px;
   justify-content: space-around;
   grid-area: catagory-container;
-  text-align: center;
-  border-top: solid black 1px;
+  /* text-align: center; */
 }
 
 .catagory-div {
   margin: auto;
+  text-align: center;
 }
 
 .cata-img {
   /* height: auto; */
-  /* width: 100%; */
-  height: 250px;
-  width: 250px;
+  width: 100%;
+  height: 300px;
+  /* width: 250px; */
 }
 
 /* Aside Section */
 .aside-container {
+  display: sticky;
   grid-area: aside-container;
   border: 1px solid red;
 }
 
 /* Footer Section */
 footer {
-  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
   grid-area: footer;
+}
+
+.footer-nav {
+  margin: auto;
 }

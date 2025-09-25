@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Iot Pwners Newz</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
     />
+
     <link href="./css/style.css" rel="stylesheet" />
     <script
-      defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+      defer
     ></script>
   </head>
   <body>
@@ -159,7 +168,7 @@
         <!-- Flex -->
         <div class="catagory-container">
           <div class="catagory-div">
-            <h5>Coding newz</h5>
+            <h5>Coding News</h5>
             <a
               href="https://www.wired.com/story/vibe-coding-engineering-apocalypse/"
               target="_blank"
@@ -186,7 +195,7 @@
           </div>
 
           <div class="catagory-div">
-            <h5>Web Dev Newz</h5>
+            <h5>Web Dev News</h5>
             <a
               href="https://www.developer-tech.com/news/top-5-ai-tools-for-frontend-development/"
               target="_blank"
@@ -203,18 +212,40 @@
 
       <!-- Flex/Sticky -->
       <aside class="aside-container">
-        <p>0 days</p>
-        <a href="#">link1</a>
-        <a href="#">link2</a>
-        <a href="#">link3</a>
+        <form class="aside-form">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Sign up for the newsletter.</label
+            >
+            <input
+              type="email"
+              placeholder="email@mail.com"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </aside>
 
       <!-- Flex maybe -->
       <footer class="footer-container">
-        <img src="#" alt="logo" />
-        <a href="#">link1</a>
-        <a href="#">link2</a>
-        <a href="#">link3</a>
+        <ul class="nav footer-nav">
+          <li class="nav-item">
+            <i></i>
+            <a class="nav-link active" aria-current="page" href="#">Linkedin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">X</a>
+          </li>
+        </ul>
       </footer>
     </div>
   </body>
