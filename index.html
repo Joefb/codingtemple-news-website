@@ -12,7 +12,7 @@
       href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
       rel="stylesheet"
     />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -20,193 +20,186 @@
   </head>
   <body>
     <!-- Flex -->
-    <div class="testing-container">
-      <header class="header-container">
-        <nav class="nav-container">
-          <div class="nav-header">
-            <p>Iot Pwners Newz</p>
-            <!-- <div class="nav-logo"> -->
-            <!--   <img src="" alt="" /> -->
-            <!-- </div> -->
-          </div>
-          <a href="">Home</a>
-          <a href="">Newz</a>
-          <a href="">Learn</a>
-          <a href="">Contact us</a>
-          <div class="nav-search-container">
-            <div class="nav-search-container">
-              <input
-                type="text"
-                class="nav-search-input"
-                placeholder="Search..."
-              />
-              <button type="submit" class="nav-search-button">Go</button>
-            </div>
+    <nav class="nav-container">
+      <div class="nav-header">
+        <p>Iot Pwners Newz</p>
+        <!-- <div class="nav-logo"> -->
+        <!--   <img src="" alt="" /> -->
+        <!-- </div> -->
+      </div>
+      <a href="">Home</a>
+      <a href="">Newz</a>
+      <a href="">Learn</a>
+      <a href="">Contact us</a>
+      <div class="nav-search-container">
+        <div class="nav-search-container">
+          <input type="text" class="nav-search-input" placeholder="Search..." />
+          <button type="submit" class="nav-search-button">Go</button>
+        </div>
 
-            <div class="dropdown">
-              <button class="drop-button">Drop Down</button>
-              <div class="dropdown-content">
-                <a href="#">link1</a>
-                <a href="#">link2</a>
-                <a href="#">link3</a>
-              </div>
+        <div class="dropdown">
+          <button class="drop-button">Drop Down</button>
+          <div class="dropdown-content">
+            <a href="#">link1</a>
+            <a href="#">link2</a>
+            <a href="#">link3</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="header-container">
+      <section class="hero-container">
+        <div class="hero-header">
+          <h1>Iot Pwners Newz</h1>
+        </div>
+        <div class="hero-header-sub">
+          <p>
+            The best resource on the web for the latest and upto date IoT
+            hacking news.
+          </p>
+        </div>
+        <div class="hero-button-container">
+          <button class="hero-button">Take me to the newz!</button>
+        </div>
+        <div class="hero-subheader">
+          <h2>Stay informed. Be upto date. Protect your network.</h2>
+        </div>
+      </section>
+    </header>
+
+    <!-- Flex/Sticky -->
+
+    <!-- Grid -->
+    <div class="body-container">
+      <!-- Grid -->
+      <main class="main-container">
+        <!-- Grid -->
+        <div class="news-container">
+          <!-- <div class="article-one-container">article one</div> -->
+          <!-- <div class="article-two-container">article two</div> -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3c963dc2a2fba13a/68c31cd0c141330ce685afd9/CarPlay-The_Bold_Bureau-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale"
+              alt="image of apple play screen in a car"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Apple CarPlay RCE</h5>
+              <p class="card-text">
+                Nearly half a year since its patch was released, few vendors and
+                no manufacturers have fixed a zero-click vulnerability in Apple
+                CarPlay.
+              </p>
+              <a
+                href="https://www.darkreading.com/vulnerabilities-threats/apple-carplay-rce-exploit"
+                class="btn btn-primary"
+                >Goto article</a
+              >
             </div>
           </div>
-        </nav>
 
-        <section class="hero-container">
-          <div class="hero-header">
-            <h1>Iot Pwners Newz</h1>
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://betanews.com/wp-content/uploads/2025/09/Internet-of-things-screen-640x360.jpg"
+              alt="image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">IoT Vulns Soar</h5>
+              <p class="card-text">
+                There’s been an 88 percent increase in hardware vulnerabilities
+                amid a proliferation of IoT devices.
+              </p>
+              <a
+                href="https://betanews.com/2025/09/23/hardware-vulnerabilities-soar-amid-spread-of-iot-devices/"
+                class="btn btn-primary"
+                >Go somewhere</a
+              >
+            </div>
           </div>
-          <div class="hero-header-sub">
-            <p>
-              The best resource on the web for the latest and upto date IoT
-              hacking news.
-            </p>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCvb-SgeL5VnNh5vhhmwMdCOe2BX8YlhJZ8Ddl6sP5XiiYds39TaNeIUOOgT45DZW8Zkz4cXssWqUTsD93oWLUbvN6UrxU0jEgsstYVZDs12iKZdKtJXvhJTyTJABKsMfwDrtbkdAcEe6fifRE8YzIKjuZLJcgdbXEiCSJ18w6DVktGUcKOEqJwDsup2Vu/s728-rw-e365/recap.jpg"
+              alt="image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weekly Recap: Zero-Day Exploits...</h5>
+              <p class="card-text">
+                What do a source code editor, a smart billboard, and a web
+                server have in common?
+              </p>
+              <a
+                href="https://betanews.com/2025/09/23/hardware-vulnerabilities-soar-amid-spread-of-iot-devices/"
+                class="btn btn-primary"
+                >Go somewhere</a
+              >
+            </div>
           </div>
-          <div class="hero-button-container">
-            <button class="hero-button">Take me to the newz!</button>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://deepstrike.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fa3jopls3%2Ftestdataset%2Fa0941f3a3188d1319b262faa3e228c1548412fbc-2144x1198.jpg&w=1920&q=100&dpl=dpl_E2TVdNCLyDy9VFFqaoisfVQs7WA9"
+              alt="image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">IoT Hacking Statistics 2025</h5>
+              <p class="card-text">
+                An in-depth 2025 analysis of IoT and OT security threats,
+                real-world attack statistics, industry impact, and regulatory
+                shifts shaping the future of connected device security.
+              </p>
+              <a
+                href="https://deepstrike.io/blog/iot-hacking-statistics"
+                class="btn btn-primary"
+                >Go somewhere</a
+              >
+            </div>
           </div>
-          <div class="hero-subheader">
-            <h2>Stay informed. Be upto date. Protect your network.</h2>
+        </div>
+
+        <!-- Flex -->
+        <div class="catagory-container">
+          <div class="catagory-one">
+            <p>Coding newz</p>
+            <img
+              class="cata-img"
+              src="https://media.wired.com/photos/68535b81b87bb8817ddabbf8/3:2/w_1280,c_limit/gear_use_markdown.jpg"
+              alt="coding temple image"
+            />
           </div>
-        </section>
-      </header>
+          <div class="catagor-two">
+            <p>Coding newz</p>
+            <img
+              class="cata-img"
+              src="https://media.wired.com/photos/68535b81b87bb8817ddabbf8/3:2/w_1280,c_limit/gear_use_markdown.jpg"
+              alt="coding temple image"
+            />
+          </div>
+          <div class="catagory-three">
+            <p>Web Dev Newz</p>
+            <img
+              class="cata-img"
+              src="https://media.wired.com/photos/68535b81b87bb8817ddabbf8/3:2/w_1280,c_limit/gear_use_markdown.jpg"
+              alt="coding temple image"
+            />
+          </div>
+        </div>
+      </main>
 
       <!-- Flex/Sticky -->
+      <aside class="aside-container">
+        <p>0 days</p>
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+      </aside>
 
-      <!-- Grid -->
-      <div class="body-container">
-        <!-- Grid -->
-        <main class="main-container">
-          <!-- Grid -->
-          <div class="news-container">
-            <!-- <div class="article-one-container">article one</div> -->
-            <!-- <div class="article-two-container">article two</div> -->
-            <div class="card" style="width: 18rem">
-              <img
-                src="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3c963dc2a2fba13a/68c31cd0c141330ce685afd9/CarPlay-The_Bold_Bureau-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale"
-                alt="image of apple play screen in a car"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Apple CarPlay RCE</h5>
-                <p class="card-text">
-                  Nearly half a year since its patch was released, few vendors
-                  and no manufacturers have fixed a zero-click vulnerability in
-                  Apple CarPlay.
-                </p>
-                <a
-                  href="https://www.darkreading.com/vulnerabilities-threats/apple-carplay-rce-exploit"
-                  class="btn btn-primary"
-                  >Goto article</a
-                >
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem">
-              <img
-                src="https://betanews.com/wp-content/uploads/2025/09/Internet-of-things-screen-640x360.jpg"
-                alt="image"
-              />
-              <div class="card-body">
-                <h5 class="card-title">IoT Vulns Soar</h5>
-                <p class="card-text">
-                  There’s been an 88 percent increase in hardware
-                  vulnerabilities amid a proliferation of IoT devices.
-                </p>
-                <a
-                  href="https://betanews.com/2025/09/23/hardware-vulnerabilities-soar-amid-spread-of-iot-devices/"
-                  class="btn btn-primary"
-                  >Go somewhere</a
-                >
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem">
-              <img
-                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCvb-SgeL5VnNh5vhhmwMdCOe2BX8YlhJZ8Ddl6sP5XiiYds39TaNeIUOOgT45DZW8Zkz4cXssWqUTsD93oWLUbvN6UrxU0jEgsstYVZDs12iKZdKtJXvhJTyTJABKsMfwDrtbkdAcEe6fifRE8YzIKjuZLJcgdbXEiCSJ18w6DVktGUcKOEqJwDsup2Vu/s728-rw-e365/recap.jpg"
-                alt="image"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Weekly Recap: Zero-Day Exploits...</h5>
-                <p class="card-text">
-                  What do a source code editor, a smart billboard, and a web
-                  server have in common?
-                </p>
-                <a
-                  href="https://betanews.com/2025/09/23/hardware-vulnerabilities-soar-amid-spread-of-iot-devices/"
-                  class="btn btn-primary"
-                  >Go somewhere</a
-                >
-              </div>
-            </div>
-
-            <div class="card" style="width: 18rem">
-              <img
-                src="https://deepstrike.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fa3jopls3%2Ftestdataset%2Fa0941f3a3188d1319b262faa3e228c1548412fbc-2144x1198.jpg&w=1920&q=100&dpl=dpl_E2TVdNCLyDy9VFFqaoisfVQs7WA9"
-                alt="image"
-              />
-              <div class="card-body">
-                <h5 class="card-title">IoT Hacking Statistics 2025</h5>
-                <p class="card-text">
-                  An in-depth 2025 analysis of IoT and OT security threats,
-                  real-world attack statistics, industry impact, and regulatory
-                  shifts shaping the future of connected device security.
-                </p>
-                <a
-                  href="https://deepstrike.io/blog/iot-hacking-statistics"
-                  class="btn btn-primary"
-                  >Go somewhere</a
-                >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Flex -->
-          <div class="catagory-container">
-            <div class="catagory-one">
-              <p>Coding newz</p>
-              <img
-                class="cata-img"
-                src="https://media.wired.com/photos/68535b81b87bb8817ddabbf8/3:2/w_1280,c_limit/gear_use_markdown.jpg"
-                alt="coding temple image"
-              />
-            </div>
-            <div class="catagor-two">
-              <p>Coding newz</p>
-              <img
-                class="cata-img"
-                src="https://media.wired.com/photos/68535b81b87bb8817ddabbf8/3:2/w_1280,c_limit/gear_use_markdown.jpg"
-                alt="coding temple image"
-              />
-            </div>
-            <div class="catagory-three">
-              <p>Web Dev Newz</p>
-              <img
-                class="cata-img"
-                src="https://media.wired.com/photos/68535b81b87bb8817ddabbf8/3:2/w_1280,c_limit/gear_use_markdown.jpg"
-                alt="coding temple image"
-              />
-            </div>
-          </div>
-        </main>
-
-        <!-- Flex/Sticky -->
-        <aside class="aside-container">
-          <p>0 days</p>
-          <a href="#">link1</a>
-          <a href="#">link2</a>
-          <a href="#">link3</a>
-        </aside>
-
-        <!-- Flex maybe -->
-        <footer class="footer-container">
-          <img src="#" alt="logo" />
-          <a href="#">link1</a>
-          <a href="#">link2</a>
-          <a href="#">link3</a>
-        </footer>
-      </div>
+      <!-- Flex maybe -->
+      <footer class="footer-container">
+        <img src="#" alt="logo" />
+        <a href="#">link1</a>
+        <a href="#">link2</a>
+        <a href="#">link3</a>
+      </footer>
+    </div>
   </body>
 </html>
