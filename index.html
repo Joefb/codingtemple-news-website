@@ -3,26 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Iots Pwner Newz</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <title>Iot Pwners Newz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link href="./css/style.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+      defer
+    ></script>
   </head>
   <body>
-    <!-- Grid -->
-    <div class="body-container">
-      <!-- Flex -->
-      <header class="header-container">
-        <div class="nav-header">
-          <p>Header</p>
+    <!-- Flex -->
+    <nav class="nav-container">
+      <div class="nav-header">
+        <p>Iot Pwners Newz</p>
+        <!-- <div class="nav-logo"> -->
+        <!--   <img src="" alt="" /> -->
+        <!-- </div> -->
+      </div>
+      <a href="">Home</a>
+      <a href="">Newz</a>
+      <a href="">Learn</a>
+      <a href="">Contact us</a>
+      <div class="nav-search-container">
+        <div class="nav-search-container">
+          <input type="text" class="nav-search-input" placeholder="Search..." />
+          <button type="submit" class="nav-search-button">Go</button>
         </div>
-        <div class="nav-logo">
-          <img src="" alt="" />
-        </div>
-        <nav class="nav-container">
-          <a href="">link1</a>
-          <a href="">link2</a>
-          <a href="">link3</a>
-          <a href="">link4</a>
-        </nav>
 
         <div class="dropdown">
           <button class="drop-button">Drop Down</button>
@@ -32,55 +54,223 @@
             <a href="#">link3</a>
           </div>
         </div>
-      </header>
-
-      <!-- Flex/Sticky -->
+      </div>
+    </nav>
+    <header class="header-container">
       <section class="hero-container">
         <div class="hero-header">
-          <h1>Hero</h1>
+          <h1>Iot Pwners Newz</h1>
         </div>
         <div class="hero-header-sub">
-          <p>Sub Hero</p>
+          <p>
+            The best resource on the web for the latest and upto date IoT
+            hacking news.
+          </p>
         </div>
-        <div class="hero-button">
-          <button>Click Me!</button>
+        <div class="hero-button-container">
+          <button class="hero-button">Take me to the newz!</button>
         </div>
         <div class="hero-subheader">
-          <h2>Git pwned</h2>
+          <h2>Stay informed. Be upto date. Protect your network.</h2>
         </div>
       </section>
+    </header>
 
+    <!-- Flex/Sticky -->
+
+    <!-- Grid -->
+    <div class="body-container">
       <!-- Grid -->
       <main class="main-container">
         <!-- Grid -->
-        <section class="news-container">
-          <div class="article-one-container">article one</div>
+        <div class="news-container">
+          <!-- <div class="article-one-container">article one</div> -->
+          <!-- <div class="article-two-container">article two</div> -->
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3c963dc2a2fba13a/68c31cd0c141330ce685afd9/CarPlay-The_Bold_Bureau-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale"
+              alt="image of apple play screen in a car"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Apple CarPlay RCE</h5>
+              <p class="card-text">
+                Nearly half a year since its patch was released, few vendors and
+                no manufacturers have fixed a zero-click vulnerability in Apple
+                CarPlay.
+              </p>
+              <a
+                href="https://www.darkreading.com/vulnerabilities-threats/apple-carplay-rce-exploit"
+                class="btn btn-primary"
+                >Goto article</a
+              >
+            </div>
+          </div>
 
-          <div class="article-two-container">article two</div>
-        </section>
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://betanews.com/wp-content/uploads/2025/09/Internet-of-things-screen-640x360.jpg"
+              alt="image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">IoT Vulns Soar</h5>
+              <p class="card-text">
+                There’s been an 88 percent increase in hardware vulnerabilities
+                amid a proliferation of IoT devices.
+              </p>
+              <a
+                href="https://betanews.com/2025/09/23/hardware-vulnerabilities-soar-amid-spread-of-iot-devices/"
+                class="btn btn-primary"
+                >Goto article</a
+              >
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCvb-SgeL5VnNh5vhhmwMdCOe2BX8YlhJZ8Ddl6sP5XiiYds39TaNeIUOOgT45DZW8Zkz4cXssWqUTsD93oWLUbvN6UrxU0jEgsstYVZDs12iKZdKtJXvhJTyTJABKsMfwDrtbkdAcEe6fifRE8YzIKjuZLJcgdbXEiCSJ18w6DVktGUcKOEqJwDsup2Vu/s728-rw-e365/recap.jpg"
+              alt="image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Weekly Recap: Zero-Day Exploits...</h5>
+              <p class="card-text">
+                What do a source code editor, a smart billboard, and a web
+                server have in common?
+              </p>
+              <a
+                href="https://betanews.com/2025/09/23/hardware-vulnerabilities-soar-amid-spread-of-iot-devices/"
+                class="btn btn-primary"
+                >Goto article</a
+              >
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://deepstrike.io/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fa3jopls3%2Ftestdataset%2Fa0941f3a3188d1319b262faa3e228c1548412fbc-2144x1198.jpg&w=1920&q=100&dpl=dpl_E2TVdNCLyDy9VFFqaoisfVQs7WA9"
+              alt="image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">IoT Hacking Statistics 2025</h5>
+              <p class="card-text">
+                An in-depth 2025 analysis of IoT and OT security threats,
+                real-world attack statistics, industry impact, and regulatory
+                shifts shaping the future of connected device security.
+              </p>
+              <a
+                href="https://deepstrike.io/blog/iot-hacking-statistics"
+                class="btn btn-primary"
+                >Goto article</a
+              >
+            </div>
+          </div>
+        </div>
 
         <!-- Flex -->
-        <section class="catagory-container">
-          <div class="catagory-one">catagory one</div>
-          <div class="catagory-two">catagory two</div>
-          <div class="catagory-three">catagory three</div>
-        </section>
+        <div class="catagory-container">
+          <div class="catagory-div">
+            <h5>Coding News</h5>
+            <a
+              href="https://www.wired.com/story/vibe-coding-engineering-apocalypse/"
+              target="_blank"
+              >Vibe Coding Is Coming for Engineering Jobs</a
+            >
+            <img
+              class="cata-img"
+              src="https://media.wired.com/photos/683df76aff7a44319182c1be/3:2/w_1280,c_limit/Death-of-Engineering-Business.jpg"
+              alt="coding temple image"
+            />
+          </div>
+
+          <div class="catagory-div">
+            <h5>Life Style News</h5>
+            <a
+              href="https://www.cancer.org/cancer/risk-prevention/diet-physical-activity/eat-healthy/healthy-foods-to-keep-in-your-kitchen.html"
+              >Eating Healthy at Home</a
+            >
+            <img
+              class="cata-img"
+              src="https://www.cancer.org/adobe/dynamicmedia/deliver/dm-aid--0d1f59e9-39a1-4316-881d-cf833d297eb2/man-and-woman-chopping-vegetables.jpg?width=1440&quality=82&preferwebp=true"
+              alt="coding temple image"
+            />
+          </div>
+
+          <div class="catagory-div">
+            <h5>Web Dev News</h5>
+            <a
+              href="https://www.developer-tech.com/news/top-5-ai-tools-for-frontend-development/"
+              target="_blank"
+              >Top 5 AI tools for frontend development</a
+            >
+            <img
+              class="cata-img"
+              src="https://www.developer-tech.com/wp-content/uploads/2025/09/ferenc-almasi-L8KQIPCODV8-unsplash-1024x683.jpg"
+              alt="coding temple image"
+            />
+          </div>
+        </div>
       </main>
 
+      <!-- ASIDE -->
       <!-- Flex/Sticky -->
       <aside class="aside-container">
-        <p>0 days</p>
-        <a href="#">link1</a>
-        <a href="#">link2</a>
-        <a href="#">link3</a>
+        <form class="aside-form">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Sign up for the newsletter.</label
+            >
+            <input
+              type="email"
+              placeholder="email@mail.com"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+        <div class="aside-news-container">
+          <img
+            src="https://www.redpacketsecurity.com/wp-content/uploads/2022/08/Redpacketsecurity-small-logo.png"
+            alt="Image of red packet security logo"
+          />
+          <p>RedPacket Security: Cisco RCE</p>
+          <a
+            href="https://www.redpacketsecurity.com/cve-alert-cve-2025-20333-cisco-cisco-adaptive-security-appliance-asa-software/"
+            class="btn btn-primary"
+            >Goto article</a
+          >
+        </div>
+
+        <div class="aside-news-container">
+          <img
+            src="https://www.pngall.com/wp-content/uploads/13/Linkedin-Logo-PNG-File.png"
+            alt="Image of linkedin logo"
+          />
+          <p>Linkedin news feed</p>
+          <a href="https://www.linkedin.com/feed/" class="btn btn-primary"
+            >Goto feed</a
+          >
+        </div>
       </aside>
 
       <!-- Flex maybe -->
       <footer class="footer-container">
-        <img src="#" alt="logo" />
-        <a href="#">link1</a>
-        <a href="#">link2</a>
-        <a href="#">link3</a>
+        <ul class="nav footer-nav">
+          <li class="nav-item">
+            <i></i>
+            <a class="nav-link active" aria-current="page" href="#">Linkedin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">X</a>
+          </li>
+        </ul>
+        <p>© Joe Burgess</p>
       </footer>
     </div>
   </body>

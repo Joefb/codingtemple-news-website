@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* height: 50%; */
+}
+
+.nav-container {
+  display: flex;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+  background-color: lightgray;
+  z-index: 10;
+}
+
+.nav-header {
+  margin-left: 30px;
+  margin-right: 180px;
+}
+
+.nav-search-container {
+  display: inline;
+  /* margin-right: 30px; */
+}
+
+/* Dropdown Button */
+.drop-button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* .testing-container {
+  display: relative;
+} */
+
+/* Hear Section */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("../assets/iot_desk.jpg") no-repeat center / cover;
+  color: white;
+}
+.hero-header > * {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+.hero-header-sub > * {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.hero-button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.nav-search-input {
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #04aa6d;
+}
+
+.nav-search-button {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+/* Body Container  */
+.body-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 6fr 1fr;
+  grid-template-rows: 6fr 1fr;
+  grid-template-areas:
+    " main aside-container"
+    "footer footer";
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: main;
+  background-color: #f2e6e6;
+}
+
+.news-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  gap: 10px;
+}
+
+/* Catagory Section */
+.catagory-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  justify-content: space-around;
+  grid-area: catagory-container;
+  border-radius: 20px;
+  /* text-align: center; */
+}
+
+.catagory-div {
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.cata-img {
+  /* height: auto; */
+  width: 100%;
+  height: 300px;
+  /* width: 250px; */
+}
+
+/* Aside Section */
+.aside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5vh;
+  grid-area: aside-container;
+  background-color: lightgray;
+}
+
+.btn {
+  margin: auto;
+  width: 100%;
+}
+
+.aside-news-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.aside-news-container > img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.aside-form {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.aside-news-container > p {
+  margin: 0;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: center;
+  grid-area: footer;
+  background-color: lightgray;
+}
+
+footer > p {
+  text-align: center;
+  margin: 0;
+  padding-top: 6vh;
+}
+
+.footer-nav {
+  align-content: center;
+}
