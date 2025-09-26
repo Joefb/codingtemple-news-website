@@ -141,8 +141,10 @@ body {
   grid-template-areas:
     " main aside-container"
     "footer footer";
-  /* border: 1px solid black; */
-  /* gap: 10px; */
+}
+
+img {
+  border-radius: 10px;
 }
 
 /* Main Container */
@@ -151,8 +153,8 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* border: 1px solid black; */
   grid-area: main;
+  background-color: #f2e6e6;
 }
 
 .news-container {
@@ -169,12 +171,14 @@ body {
   gap: 50px;
   justify-content: space-around;
   grid-area: catagory-container;
+  border-radius: 20px;
   /* text-align: center; */
 }
 
 .catagory-div {
   margin: auto;
   text-align: center;
+  border-radius: 20px;
 }
 
 .cata-img {
